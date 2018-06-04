@@ -1,8 +1,8 @@
 {
-  "name": "litecore-message",
+  "name": "ulitecore-message",
   "version": "1.0.5",
   "description": "Litecoin Messages for Litecore",
-  "author": "BitPay <dev@bitpay.com>",
+  "author": "Jay <jay@pentajeu.com>",
   "main": "index.js",
   "scripts": {
     "lint": "gulp lint",
@@ -11,19 +11,16 @@
     "build": "gulp"
   },
   "keywords": [
-    "litecoin",
-    "litecore",
-    "ltc",
     "satoshi",
     "message",
     "signing"
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/litecoin-project/litecore-message.git"
+    "url": "https://github.com/jaylim/ulitecore-message.git"
   },
   "dependencies": {
-    "litecore-lib": "^0.13.22"
+    "ulitecore-lib": "^0.13.0"
   },
   "devDependencies": {
     "litecore-build": "litecoin-project/litecore-build",
